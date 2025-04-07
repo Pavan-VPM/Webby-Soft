@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Webby Soft</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <img src="logo.png" alt="Webby Soft Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-text" data-aos="fade-right">
+        <h1>Our Services</h1>
+        <p>Explore the cutting-edge services we offer to help your business grow and thrive.</p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <h2>What We Offer</h2>
+      <div class="services-grid">
+        <div class="service-box" data-aos="zoom-in" data-aos-delay="100">
+          <h3>Web Designing</h3>
+          <p>Modern and elegant designs that are responsive and user-friendly, tailored to your business needs.</p>
+        </div>
+        <div class="service-box" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Web Applications</h3>
+          <p>Custom web solutions built with cutting-edge technology to improve your workflow and user experience.</p>
+        </div>
+        <div class="service-box" data-aos="zoom-in" data-aos-delay="300">
+          <h3>Digital Marketing</h3>
+          <p>Effective strategies including SEO, PPC, and social media marketing to boost your online presence.</p>
+        </div>
+        <div class="service-box" data-aos="zoom-in" data-aos-delay="400">
+          <h3>Mobile Applications</h3>
+          <p>Developing engaging, scalable mobile apps for Android and iOS, ensuring seamless performance across devices.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-form-section">
+      <h2>Get in Touch</h2>
+      <p>Have a project in mind? Reach out to us and let's build something amazing together!</p>
+      <form action="submit_form.php" method="post" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <p>📧 Contact us at <a href="mailto:info@webbysoft.com">info@webbysoft.com</a></p>
+      <p>© 2025 Webby Soft. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+</body>
+</html>
